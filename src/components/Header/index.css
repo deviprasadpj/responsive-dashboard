@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.header-wrapper {
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-first-part {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.logo-second-part {
+    font-weight: normal;
+}
+
+.header-left {
+    display: flex;
+    padding-top: 12px;
+}
+
+.main-heading {
+    margin-left: 40px;
+}
+
+.first-heading-main {
+    font-family: 'Roboto';
+    font-size: 12px; 
+}
+
+.second-heading-main {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
